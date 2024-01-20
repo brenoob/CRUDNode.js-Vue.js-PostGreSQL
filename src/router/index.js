@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import  NProgress  from 'nprogress'
+import CreateEmployeeComponent from '../components/create-employee/CreateEmployeeComponent.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +9,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'Create new employee',
-      component: () => import ('../components/create-employee/CreateEmployeeComponent.vue')
+      component: CreateEmployeeComponent
     },
     {
       path: '/edit-employee',
