@@ -10,7 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <div class="container">
           <ul type="none">
             <li>
-              <RouterLink to="/">Home</RouterLink>
+              <RouterLink to="/">create employee</RouterLink>
             </li>
             <li>
               <RouterLink to="/edit-employee">edit employees here</RouterLink>
@@ -37,7 +37,7 @@ nav {
 }
 nav a {
   /* display: flex; */
-  margin-left: 2rem;
+  margin-left: 1rem;
   text-decoration: none;
   /* padding: 0 1rem; */
   border-radius: 0.2rem;

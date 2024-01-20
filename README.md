@@ -1,4 +1,4 @@
-# projetos-vue-live--glaucia-lemos
+# CRUDNode.js-Vue.js-PostGreSQL
 
 This template should help get you started developing with Vue 3 in Vite.
 
