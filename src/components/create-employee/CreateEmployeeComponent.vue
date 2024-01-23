@@ -69,8 +69,7 @@
 import { reactive } from 'vue'
 import { useVuelidate } from "@vuelidate/core";
 import { maxLength, minLength, required } from "@vuelidate/validators";
-// export default {
-//  setup() {
+
 const employee = reactive({ name: '', job_role: '', salary: 0, birth: '', employee_registration: ''})
 const rules = { 
     name: { required, maxLength: maxLength(200), minLength: minLength(3) }, 
@@ -86,13 +85,8 @@ const submitForm = async () => {
     const result = await v$.value.$validate()
     if (result) {
         alert('sucess')
-        // console.log(v$)
     } else {
         console.log('falha')
     }
 }
-
-// return { employee, v$ }
-//  }
-// }
 </script>
