@@ -58,7 +58,10 @@
                     </div>
                     <!-- fim do bloco: Employee Registration  -->
                     <div class="form-group">
-                        <button class="btn btn-success bg-gradient">+ Employee</button>
+                        <button class="btn btn-success bg-gradient mt-3">
+                            <font-awesome-icon :icon="['fas', 'address-book']" />
+                            employee
+                        </button>
                     </div>
                 </form>
             </div>
