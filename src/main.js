@@ -13,6 +13,8 @@ import '../node_modules/nprogress/nprogress.css'
 
 const app = createApp(App)
 
-app.use(router, VueSweetalert2, useVuelidate)
+app.use(router)
+app.use(VueSweetalert2)
+app.use(useVuelidate)
 
 app.mount('#app')
